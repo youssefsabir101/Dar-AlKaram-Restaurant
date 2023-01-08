@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="responsive.css"/>
+    
+    <link rel="stylesheet" href="animate.css"/>
+    <title>Dar Elkaram</title>
+</head>
+<body>
+    <header>
+        <img src="img/Sans titre - 2.png" alt="Dar Elkaram" id="logo"/>
+        <!--<label for="check" id="lab"></label>
+        <input type="checkbox" id="check"/>-->
+        <img src="img/hum.png" alt="" class="humberger">
+        <img src="img/humX.png" alt="" class="humbergerX">
+        <nav>
+            <a href="#acceille">Acceille</a>
+            <a href="#Menu" id="amenu">Menu</a>
+            <a href="#Facture">Facture</a>
+            <a href="#resarvation">Reservation</a>
+            <a href="#contacter">Contactez</a>
+            
+        
+        </nav>
+    </header>
+    
+<!--############################################ Acceuille ###############################-->
+    <div id="acceille">
+        <h1>Bienvenue Chez Dar El Karam</h1><br>
+        <h2>Vous sentez-vous faim, n'hésitez pas?</h2>
+        <a class="Decouvrez" href="#Menu">Decouvrez nos plats </a>
+        <br>
+        <p class="ouvert">Du   Landi   a  Jeudi  de <span>9:00 AM - 22:00PM</span>
+            <br>Du Vendredi a Dimanche de <span>10:00 AM - 00:00PM</span>
+        </p>
+        
+        
+    </div>
+<!--############################################ Menu ###############################-->
+    <div class="menu">
+        <h2 id="Menu">Menu</h2>
+        <div class="menu1">
+            <dl title="Pizzaria" >
+                <dt >Pizzaria</dt>
+                <dd>Pizza Junior ...................... <span class="price">45 DH</span> </dd>
+                <dd>Pizza Sénior ...................... <span class="price">60 DH</span> </dd>
+                <dd>Pizza Méga ....................... <span class="price">35 DH</span> </dd>
+            </dl>
+            <dl title="cafe">
+                <dt >Café</dt>
+                <dd>Café simple.......................<span class="price">10 DH</span> </dd>
+                <dd>Café double.......................<span class="price">15 DH</span> </dd>
+                <dd>Café Capsule.....................<span class="price">14 DH</span> </dd>
+                <dd>Café Latté.........................<span class="price">12 DH</span> </dd>
+                <dd>Cappuccino.......................<span class="price">16 DH</span> </dd>
+                <dd>Lait Chocolat.....................<span class="price">11 DH</span> </dd>
+                <dd>Thé à la ververine..............<span class="price">13 DH</span> </dd>
+                <dd>Thé à la menthe.................<span class="price">12 DH</span> </dd>
+                <dd>Thé glacé..........................<span class="price">12 DH</span></dd>
+                <dd>Lait chaud.........................<span class="price">15 DH</span> </dd>
+            </dl>
+            
+        </div>
+        <div class="menu2">
+            <dl title="Boissons">
+                <dt>Boissons</dt>
+                <dd>Coca-cola..........................<span class="price" V>8 DH</span> </dd>
+                <dd>Fanta ...............................<span class="price">7 DH</span> </dd>
+                <dd>Huawai.............................<span class="price">9 DH</span> </dd>
+                <dd>Orangina ..........................<span class="price">6 DH</span> </dd>
+                <dd>Eau mineral.......................<span class="price">7 DH</span> </dd>
+                <dd>Jus d’orange .....................<span class="price">9 DH</span> </dd>
+                <dd>Jus de lait aux amandes......<span class="price">9 DH</span> </dd>
+                <dd>Smoothie..........................<span class="price">8 DH</span> </dd>
+            </dl>
+            <dl title="Glasses">
+                <dt>Glasses</dt>
+                <dd>Glace au chocolat..............<span class="price">12 DH</span> </dd>
+                <dd>Glace classique.................<span class="price">13 DH</span> </dd>
+                <dd>Glace pistache et vanille.....<span class="price">15 DH</span> </dd>
+                <dd>Glace Amande et vanille.....<span class="price">14 DH</span> </dd>
+                <dd>Glace aux smarties............<span class="price">16 DH</span> </dd>
+            </dl>
+            
+        </div>
+        <div class="menu2">
+            <dl title="Restaurant">
+                <dt>Restaurant</dt>
+                <dd>Salade niçoise......................<span class="price">20 DH</span></dd>
+                <dd>Salade marocaine.................<span class="price">15 DH</span> </dd>
+                <dd>Salade César .......................<span class="price">16 DH</span> </dd>
+                <dd>Plat Poulet au Four.................<span class="price">13 DH</span> </dd>
+                <dd>Plat Poisson à la Plancha.........<span class="price">18 DH</span> </dd>
+                <dd>Plat Viande hachée Boulettes...<span class="price">19 DH</span> </dd>
+            </dl>
+        </div>
+        
+    </div>
+
+<!--############################################ Facture ###############################-->
+    <div class="facture">
+        <h2 id="Facture">Facture</h2>
+        <p>Cliquer sur element pour ajouter a la caisse</p>
+        <div class="chompDeCalcule">
+            <div id="zoneDesPrix" >
+                <span id="calc">0</span><span id="dh">&nbsp;DH</span>
+                <br>
+                <span id="avectva">Cliquer sur des éléments pour ajouter a la caisse</span>
+            </div>
+            <br>
+            <button class="btn_facture1" id="tvabutton" >Total TTC</button>
+            <button class="btn_facture2" id="resetbutton" type="reset">initialiser</button>
+            <br>
+        </div>
+        <div class="facture1">
+            <dl title="Pizzaria" id="piz"><img src="img/downward.png" alt="">
+                <dt>Pizzaria</dt>
+                <dd id="p1" >Pizza Junior ...................... <span class="price">45 DH</span> </dd>
+                <dd id="p2" >Pizza Sénior ...................... <span class="price">60 DH</span> </dd>
+                <dd id="p3" >Pizza Méga ....................... <span class="price">35 DH</span> </dd>
+            </dl><br>
+            <dl title="café" id="ca"><img src="img/downward.png" alt="">
+                <dt>Café</dt>
+                <dd id="c1">Café simple.......................<span class="price">10 DH</span> </dd>
+                <dd id="c2">Café double.......................<span class="price">15 DH</span> </dd>
+                <dd id="c3">Café Capsule.....................<span class="price">14 DH</span> </dd>
+                <dd id="c4">Café Latté.........................<span class="price">12 DH</span> </dd>
+                <dd id="c5">Cappuccino.......................<span class="price">16 DH</span> </dd>
+                <dd id="c6">Lait Chocolat.....................<span class="price">11 DH</span> </dd>
+                <dd id="c7">Thé à la ververine..............<span class="price">13 DH</span> </dd>
+                <dd id="c8">Thé à la menthe.................<span class="price">12 DH</span> </dd>
+                <dd id="c9">Thé glacé..........................<span class="price">12 DH</span></dd>
+                <dd id="c10">Lait chaud.........................<span class="price">15 DH</span> </dd>
+            </dl>
+            
+        </div>
+        
+        <div class="menu2">
+            <dl title="Boissons" id="bo"><img src="img/downward.png" alt="">
+                <dt>Boissons</dt>
+                <dd id="b1">Coca-cola..........................<span class="price" V>8 DH</span> </dd>
+                <dd id="b2">Fanta ...............................<span class="price">7 DH</span> </dd>
+                <dd id="b3">Huawai.............................<span class="price">9 DH</span> </dd>
+                <dd id="b4">Orangina ..........................<span class="price">6 DH</span> </dd>
+                <dd id="b5">Eau mineral.......................<span class="price">7 DH</span> </dd>
+                <dd id="b6">Jus d’orange .....................<span class="price">9 DH</span> </dd>
+                <dd id="b7">Jus de lait aux amandes......<span class="price">9 DH</span> </dd>
+                <dd id="b8">Smoothie..........................<span class="price">8 DH</span> </dd>
+            </dl><br>
+            <dl title="Glasses" id="gl"><img src="img/downward.png" alt="">
+                <dt>Glasses</dt>
+                <dd id="g1">Glace au chocolat..............<span class="price">12 DH</span> </dd>
+                <dd id="g2">Glace classique.................<span class="price">13 DH</span> </dd>
+                <dd id="g3">Glace pistache et vanille.....<span class="price">15 DH</span> </dd>
+                <dd id="g4">Glace Amande et vanille.....<span class="price">14 DH</span> </dd>
+                <dd id="g5">Glace aux smarties............<span class="price">16 DH</span> </dd>
+            </dl>
+            
+        </div>
+        <div class="facture2">
+            <dl title="Restaurant" id="re"><img src="img/downward.png" alt="">
+                <dt>Restaurant</dt>
+                <dd id="r1">Salade niçoise...................<span class="price">20 DH</span></dd>
+                <dd id="r2">Salade marocaine...............<span class="price">15 DH</span> </dd>
+                <dd id="r3">Salade César ....................<span class="price">16 DH</span> </dd>
+                <dd id="r4">Plat Poulet au Four..............<span class="price">13 DH</span> </dd>
+                <dd id="r5">Plat Poisson à la Plancha....<span class="price">18 DH</span> </dd>
+                <dd id="r6">Plat Viande hachée ...........<span class="price">19 DH</span> </dd>
+            </dl>
+        </div>
+        
+    </div>
+<!--############################################  Reservation ###############################-->
+
+    <div class="Reservation">
+        <h2 id="resarvation">Resarvation</h2>
+        <form >
+            <div >
+                <input type="text"  placeholder="Nom et Prenom">
+                <input type="email" placeholder="E-Mail">
+            </br>
+                <input type="date" placeholder="Date" />
+                <input type="time" placeholder="Time"/>
+            </div>
+
+            <div class="selc">
+                <select name="Nombre de personnes" class="selectpicker">
+                    <option selected disabled>Nombre de personnes</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <select name="Grade de reservation"  class="selectpicker">
+                    <option selected disabled>Grade</option>
+                    <option>1er </option>
+                    <option>2eme </option>
+                    <option>3eme </option>
+                </select>
+            </div>
+
+            <button class="btn_valid_reserv" type="submit">Valider </button>
+            <button class="btn_reset_reserv" type="reset">rientilizer</button>
+            
+        </form>
+    </div>
+<!--############################################  footer ###############################-->
+    <footer>
+        <form action="">
+            <span id="contacter"></span>
+        <input type="email" placeholder="entrer votre email">
+        <br>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="votre message" ></textarea>
+        <br>
+        <button class="envoyer" type="submit">Envoyer </button>
+        <br>
+        </form>
+        <img src="img/Sans titre - 2.png" alt="Dar Elkaram" id="logo"/>
+        <h3>Copyreigth &copy; 2021 || All reigth seved by Dar Elkaram</h3>
+        <h3>Devlopped by Youssef Sabir</h3>
+    </footer>
+    <!--############################################ fin ###############################-->
+    <script src="jquery-3.6.0.js"></script>
+    <script src="JQ.js"></script>
+    <script src="javascript.js"></script>
+    <script src="wow.min.js"></script>
+</body>
+</html>

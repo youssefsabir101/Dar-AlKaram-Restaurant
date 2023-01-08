@@ -1,0 +1,199 @@
+@media screen and (max-width: 1125px) {
+    .facture{
+        height:85%;
+    } 
+}
+
+@media screen and (max-width: 940px) {
+    #acceille h1{
+        padding-top: 18%;
+        font-size: 45px;
+    }
+    .facture{
+        height:90%;
+    }
+    .chompDeCalcule{
+        width: 30%;
+        height: 15%;
+        
+    }
+    footer input{
+        
+        width: 50%;
+    }
+    footer textarea{
+        width: 50%;
+    }
+    footer button{
+        width: 35%;
+    }
+    footer h3{
+        
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 900px) {
+    #check:checked+nav{
+        transform: translate(0,0);
+        transition: all 0.5s ease-in-out;
+    }
+    .humberger{
+        display: block;
+    }
+    nav{
+        margin-top: 60px;
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        transform: translate(-2000px,0);
+        transition: all 0.8s ease-in-out;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width: 720px) {
+    nav a{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 690px) {
+    .facture{
+        width: 100%;
+        height:120%;
+    }
+    #acceille h1{
+        
+        font-size: 40px;
+    } 
+    .ouvert{
+        margin-top: 15%;
+        
+    }
+}
+@media screen and (max-width: 640px) {
+    
+    #acceille h1{
+        font-size: 30px;
+        
+    }
+    nav a{
+        font-size: 15px;
+    }
+    
+    .btn_valid_reserv, .btn_reset_reserv{
+        font-size: 16px;
+    }
+    .facture{
+        height:100%;
+    }
+    footer input{
+        
+        width: 60%;
+    }
+    footer textarea{
+        width: 60%;
+    }
+    footer button{
+        width: 40%;
+    }
+    footer h3{
+        
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 596px) {
+    .menu{
+        width: 100%;
+        height:100%; 
+    }
+    #acceille h1{ 
+        
+        padding-top: 20%; 
+    }
+    .facture{
+        height:100%;
+        
+    }
+    nav a{
+        font-size: 13px;
+    }
+
+
+    footer input{
+        
+        width: 60%;
+    }
+    footer textarea{
+        width: 60%;
+    }
+    footer button{
+        width: 40%;
+    }
+    footer h3{
+        
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 526px) {
+    nav a{
+        font-size: 12px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 450px) {
+    nav a{
+        font-size: 10px;
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+    #acceille h1{ 
+        font-size: 25px;
+        padding-top: 30%; 
+    }
+    .menu h2{
+        font-size: 50px;
+    }
+    .menu{
+        width: 100%;
+        height:100%; 
+    }
+    .Reservation h2{
+        font-size: 50px;
+    }
+    .Reservation{ 
+        height: 60%;     
+    }
+    .facture{
+        height:120%;
+        
+    }
+    .facture h2{
+        font-size: 50px;
+    }
+    .btn_valid_reserv, .btn_reset_reserv{
+        font-size: 14px;
+    }
+    .chompDeCalcule{
+        width: 99%;
+        height: 8%; 
+        margin-bottom: 70px;  
+    }
+    footer input{
+        
+        width: 80%;
+    }
+    footer textarea{
+        width: 80%;
+    }
+    footer button{
+        width: 60%;
+    }
+    footer h3{
+        
+        font-size: 12px;
+    }
+}
